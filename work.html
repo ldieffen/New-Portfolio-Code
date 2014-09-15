@@ -2,44 +2,92 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lindsay Dieffenbauch</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
 </head>
 
 
 <body>
-<header>
-<img src="images/logo.png" alt="personal logo">
+<div class="container">
+	<div class="row">
 
-<ul>
-	<li><a href="index.html">Home</a></li>
-	<li><a href="work.html">My Work</a></li>
-	<li><a href="contact.html">Contact Me</a></li>
-</ul>
-</header>
+	<div class="logo">
+	<a href="index.html">
+		<div class="col-xs-4 col-sm-2 col-lg-1">
+			<img src="images/logo.png" class="img-responsive" alt="personal logo">
+		</div>
+	</a>
+	</div>
 
-<h1>My Work</h1>
-
-<div class="icons">
-	<ul>
-		<li><a href="     "><img src="images/twitter.png" alt="twitter logo"></a></li>
-		<li><a href="     "><img src="images/pinterest.png" alt="pinterest logo"></a></li>
-		<li><a href="     "><img src="images/instagram.png" alt="instagram logo"></a></li>
-		<li><a hred="     "><img src="images/facebook.png" alt="facebook logo"></a></li>
-	</ul>
+<!--mobile nav-->
+<div class="hidden-lg">
+	<div class="btn-group btn-group-justified">
+	  	<div class="btn-group">
+	   			 <a href="index.html">
+	   			 	<button type="button" class="btn btn-default">Home</button>
+	   			 </a>
+	  	</div>
+	  	<div class="btn-group">
+	    		<a href="work.html">
+	    			<button type="button" class="btn btn-default">My Work</button>
+	    		</a>
+	  	</div>
+	  	<div class="btn-group">
+	    		<a href="contact.html">
+	    			<button type="button" class="btn btn-default">Contact Me</button>
+	    		</a>
+	  	</div>
+	</div>
 </div>
 
-<div class="line"></div>
-
-<p>I am a graphic designer by trade, but I also enjoy all forms of art. As a designer and artist, I strive to combine my love for both.</p>
-
-<div class="categories">
-	<a href="design.html"><img src="images/magazine.jpg" alt="graphic design work"></a>
-    <h5>GRAPHIC DESIGN</h5>
-
-    <a href="misc.html"><img src="images/misc.jpg" alt="misc artwork"></a>
-	<h5>MISCELLANEOUS WORK</h5>
+<!--Nav for tablet and desktop-->
+<div class="nav">
+	<nav class="col-xs-12 pull-right col-sm-4 hidden-xs hidden-sm">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="work.html">My Work</a></li>
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+	</nav>
 </div>
 
+	<div class="pull-left col-xs-8 col-sm-8 col-lg-12">
+		<h1>My Work</h1>
+	</div>
 
+
+	<div class="line"></div>
+
+		<div class="col-xs-12 col-sm-12 col-lg-3">
+			<p>I am a graphic designer by trade, but I also enjoy all forms of art. As a designer and artist, I strive to combine my love for both.</p>
+		</div>
+
+		<div class="categories">
+			<div class="col-xs-12 col-sm-12 col-lg-8">
+			<a href="design.html"><img src="images/magazine.jpg" class="img-responsive" alt="graphic design work"></a>
+		</div>
+			<div class="col-xs-12 col-sm-12 col-lg-12">
+		    <h5>GRAPHIC DESIGN</h5>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-lg-8">
+		    <a href="misc.html"><img class="img-responsive" src="images/misc.jpg" alt="misc artwork"></a>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-lg-8">
+			<h5>MISCELLANEOUS WORK</h5>
+		</div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	</div>
+</div>
 </body>
 </html>

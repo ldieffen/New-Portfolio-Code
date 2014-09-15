@@ -2,39 +2,91 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name=“viewport” content=“width=device-width, initial-scale=1”>
 <title>Lindsay Dieffenbauch</title>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
 </head>
 
 
 <body>
-<header>
-<img src="images/logo.png" alt="personal logo">
 
-<ul>
-	<li><a href="index.html">Home</a></li>
-	<li><a href="work.html">My Work</a></li>
-	<li><a href="contact.html">Contact Me</a></li>
-</ul>
-</header>
+<div class="container">
+	<div class="row">
 
-<h1>Posters</h1>
+				<!--logo-->
+	<div class="logo">
+	<a href="index.html">
+		<div class= "col-xs-4 col-sm-2 col-lg-1"> 
+		<img src="images/logo.png" class="img-responsive" alt="personal logo">
+		</div>
+	</a>
+	</div>
 
-<div class="icons">
-	<ul>
-		<li><a href="     "><img src="images/twitter.png" alt="twitter logo"></a></li>
-		<li><a href="     "><img src="images/pinterest.png" alt="pinterest logo"></a></li>
-		<li><a href="     "><img src="images/instagram.png" alt="instagram logo"></a></li>
-		<li><a hred="     "><img src="images/facebook.png" alt="facebook logo"></a></li>
-	</ul>
+<!--mobile nav-->
+<div class="hidden-lg">
+	<div class="btn-group btn-group-justified">
+	  	<div class="btn-group">
+	   			 <a href="index.html">
+	   			 	<button type="button" class="btn btn-default">Home</button>
+	   			 </a>
+	  	</div>
+	  	<div class="btn-group">
+	    		<a href="work.html">
+	    			<button type="button" class="btn btn-default">My Work</button>
+	    		</a>
+	  	</div>
+	  	<div class="btn-group">
+	    		<a href="contact.html">
+	    			<button type="button" class="btn btn-default">Contact Me</button>
+	    		</a>
+	  	</div>
+	</div>
 </div>
 
-<div class="line"></div>
+<!--Nav for tablet and desktop-->
+<div class="nav">
+	<nav class="col-xs-12 pull-right hidden-xs hidden-sm">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="work.html">My Work</a></li>
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+	</nav>
+</div>
 
-<p>This is my design for the Jazz Ensembles concert at the WVU College of Creative Arts.</p>
+	<div class="pull-left col-xs-12 col-sm-12 col-lg-12">
+		<h1>Posters</h1>
+	</div>
 
-<ul>
-	<li><img src="images/posters.jpg" alt="packaging design closed view"></li>
-</ul>
 
+		<div class="line"></div>
+
+<div class="back">
+		<div class="col-xs-12">
+			<a href="design.html">Back</a>
+		</div>
+</div>
+
+
+		<div class="col-xs-12">
+			<p>This is my design for the Jazz Ensembles concert at the WVU College of Creative Arts.</p>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-lg-8">
+			<img src="images/poster1.png" class="img-responsive" alt="packaging design closed view"></li>
+		</div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	</div>
+
+</div>
 </body>
 </html>

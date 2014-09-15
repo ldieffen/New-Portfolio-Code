@@ -1,0 +1,60 @@
+
+li {
+	list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display:inline;
+		}
+
+.icons li {
+	display:inline;
+	float:right;}
+
+p {float:left;
+color: #00cbcb;
+font-family: Questrial; sans-serif;}
+
+h1 {font-size:20pt;
+	font-family: Rokkitt; serif;
+	color: #ff6600;}
+
+
+h5 {font-family: Questrial; sans-serif;
+	color: white;
+	background-color: #ff6600;
+	padding:10px 5px 10px 5px;
+	z-index:100;
+
+
+}
+
+h6 {font-family: Questrial; sans-serif;
+	color:#ff6600;
+	font-size:12pt;
+	}
+.btn-group button {color:white;
+					font-family: Questrial; sans-serif;
+					background-image:none;
+					background-color:#00cbcb;
+					border-radius:0;}
+
+.btn-group button:hover {color:white;
+	background-color: #ff6600;
+
+
+}
+.thumbnails img {padding-bottom:5%;}
+
+.back a {margin-bottom:12%;
+		font-family: Questrial; sans-serif;
+		color:#00cbcb;}
+
+.book img {margin-bottom:2%;}
+
+.nav a {font-family: Questrial; sans-serif;
+	color:#00cbcb;
+
+	}
+
+
+.line {border-bottom:red;}

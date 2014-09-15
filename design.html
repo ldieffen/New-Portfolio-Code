@@ -2,51 +2,113 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lindsay Dieffenbauch</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
 </head>
 
 
 <body>
-<header>
-<img src="images/logo.png" alt="personal logo">
+<div class="container">
+	<div class="row">
 
-<ul>
-	<li><a href="index.html">Home</a></li>
-	<li><a href="work.html">My Work</a></li>
-	<li><a href="contact.html">Contact Me</a></li>
-</ul>
-</header>
+	<div class="logo">
+	<a href="index.html">
+		<div class="col-xs-4 col-sm-2 col-lg-1">
+			<img src="images/logo.png" class="img-responsive" alt="personal logo">
+		</div>
+	</a>
+	</div>
 
-<h1>Graphic Design</h1>
 
-<div class="icons">
-	<ul>
-		<li><a href="     "><img src="images/twitter.png" alt="twitter logo"></a></li>
-		<li><a href="     "><img src="images/pinterest.png" alt="pinterest logo"></a></li>
-		<li><a href="     "><img src="images/instagram.png" alt="instagram logo"></a></li>
-		<li><a hred="     "><img src="images/facebook.png" alt="facebook logo"></a></li>
-	</ul>
+<!--mobile nav-->
+<div class="hidden-sm hidden-lg">
+	<div class="btn-group btn-group-justified">
+	  	<div class="btn-group">
+	   			 <a href="index.html">
+	   			 	<button type="button" class="btn btn-default">Home</button>
+	   			 </a>
+	  	</div>
+	  	<div class="btn-group">
+	    		<a href="work.html">
+	    			<button type="button" class="btn btn-default">My Work</button>
+	    		</a>
+	  	</div>
+	  	<div class="btn-group">
+	    		<a href="contact.html">
+	    			<button type="button" class="btn btn-default">Contact Me</button>
+	    		</a>
+	  	</div>
+	</div>
 </div>
 
-<div class="line"></div>
-
-<a href="work.html">Back</a>
-
-<div class="thumbnails">
-
-	<ul>
-		<li><a href="magazine.html"><img src="images/magazine_clip.jpg" alt="magazine"></a></li>
-		<li><a href="howto.html"><img src="images/howto_clip.jpg" alt="how to project"></a></li>
-		<li><a href="bookcovers.html"><img src="images/bookcovers.jpg" alt="bookcovers"></a></li>
-		<li><a href="packaging.html"><img src="images/packaging.jpg" alt="packaging project"></a></li>
-		<li><a href="posters.html"><img src="images/posters.jpg" alt="jazz poster"></a></li>
-		<li><a href="postcard.html"><img src="images/postcard_clip.jpg" alt="EOC postcard"></a></li>
-		<li><a href="businesscards.html"><img src="images/business_card_clip.jpg" alt="business cards"></a></li>
-		<li><a href="bookmarks.html"><img src="images/bookmarks_clip.jpg" alt="bookmarks"></a></li>
-	</ul>
-
+<!--Nav for tablet and desktop-->
+<div class="nav">
+	<nav class="col-xs-12 pull-right col-sm-4 hidden-xs">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="work.html">My Work</a></li>
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+	</nav>
 </div>
 
+	<div class="pull-left col-xs-12 col-sm-12 col-lg-12">
+		<h1>Graphic Design</h1>
+	</div>
 
+
+		<div class="line"></div>
+
+	<div class="col-xs-12 col-sm-12">
+		<div class="back">
+			<a href="work.html">Back</a>
+		</div>
+	</div>
+
+		<div class="thumbnails">
+
+				<div class="col-xs-6 col-sm-4 col-lg-3">
+						<a href="magazine.html"><img src="images/magazine_clip.jpg" class="img-responsive" alt="magazine"></a>
+				</div>
+				<div class="col-xs-6 col-sm-4 col-lg-3">
+						<a href="howto.html"><img src="images/howto_clip.jpg" class="img-responsive" alt="how to project"></a>
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-lg-3">
+						<a href="bookcovers.html"><img src="images/bookcovers.jpg" class="img-responsive" alt="bookcovers"></a>
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-lg-3">
+						<a href="packaging.html"><img src="images/packaging.jpg" class="img-responsive" alt="packaging project"></a>
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-lg-3">
+						<a href="posters.html"><img src="images/posters.jpg" class="img-responsive" alt="jazz poster"></a>
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-lg-3">
+						<a href="postcard.html"><img src="images/postcard_clip.jpg" class="img-responsive" alt="EOC postcard"></a>
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-lg-3">
+						<a href="businesscards.html"><img src="images/business_card_clip.jpg" class="img-responsive" alt="business cards"></a>
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-lg-3">
+						<a href="bookmarks.html"><img src="images/bookmarks_clip.jpg" class="img-responsive" alt="bookmarks"></a>
+				</div>
+
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </div>
+</div>
 </body>
 </html>

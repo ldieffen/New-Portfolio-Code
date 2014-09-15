@@ -2,41 +2,98 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name=“viewport” content=“width=device-width, initial-scale=1”>
 <title>Lindsay Dieffenbauch</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
 </head>
 
 
 <body>
-<header>
-<img src="images/logo.png" alt="personal logo">
+<div class="container">
+	<div class="row">
 
-<ul>
-	<li><a href="index.html">Home</a></li>
-	<li><a href="work.html">My Work</a></li>
-	<li><a href="contact.html">Contact Me</a></li>
-</ul>
-</header>
+		<div class="logo">
+			<a href="index.html">
+				<img class= "col-xs-4 col-sm-2 col-lg-1" "img-responsive"  src="images/logo.png" alt="personal logo">
+			</a>
+		</div>
 
-<h1>Contact Me</h1>
-
-
-
-<div class="icons">
-	<ul>
-		<li><a href="     "><img src="images/twitter.png" alt="twitter logo"></a></li>
-		<li><a href="     "><img src="images/pinterest.png" alt="pinterest logo"></a></li>
-		<li><a href="     "><img src="images/instagram.png" alt="instagram logo"></a></li>
-		<li><a hred="     "><img src="images/facebook.png" alt="facebook logo"></a></li>
-	</ul>
+<!--mobile nav-->
+<div class="hidden-lg">
+	<div class="btn-group btn-group-justified">
+	  	<div class="btn-group">
+	   			 <a href="index.html">
+	   			 	<button type="button" class="btn btn-default">Home</button>
+	   			 </a>
+	  	</div>
+	  	<div class="btn-group">
+	    		<a href="work.html">
+	    			<button type="button" class="btn btn-default">My Work</button>
+	    		</a>
+	  	</div>
+	  	<div class="btn-group">
+	    		<a href="contact.html">
+	    			<button type="button" class="btn btn-default">Contact Me</button>
+	    		</a>
+	  	</div>
+	</div>
 </div>
 
-<div class="line"></div>
+<!--Nav for tablet and desktop-->
+<div class="nav">
+	<nav class="col-xs-12 pull-right col-sm-4 hidden-xs hidden-sm">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="work.html">My Work</a></li>
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+	</nav>
+</div>
 
-<p>Lindsay Dieffenbauch</p>
-<p>304.266.2542</p>
+	<div class="pull-left col-xs-8">
+		<h1>Contact Me</h1>
+	</div>
 
-<h6>Email Me!</h6>
-<!---form goes here
 
+		<div class="line"></div>
+
+	<div class="col-xs-12">
+		<p>Lindsay Dieffenbauch</p>
+	</div>
+
+		<div class="col-xs-12">
+			<p>304.266.2542</p>
+		</div>
+
+		<div class="col-xs-12">
+			<h6>Email Me!</h6>
+		</div>
+
+		<div class="col-xs-12">
+			<p>ldieffen@mix.wvu.edu</p>
+		</div>
+	<!--social media links-->
+	<div class="col-xs-12 col-sm-6">
+		<div class="icons">
+			<a href="https://twitter.com/Lindsay__May" target="_blank"><img src="images/twitter.png" alt="twitter logo"></a>
+
+			<a href="http://www.pinterest.com/lindsaymayd/" target="_blank"><img src="images/pinterest.png" alt="pinterest logo"></a>
+
+			<a href="http://instagram.com/lindsay__may" target="_blank"><img src="images/instagram.png" alt="instagram logo"></a>
+
+			<a href="https://www.facebook.com/lindsay.dieffenbauch" target="_blank"><img src="images/fblogo.png" alt="facebook logo"></a>
+		</div>
+	</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	</div>
+	</div>
+</div>
 </body>
 </html>

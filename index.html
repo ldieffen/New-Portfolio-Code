@@ -2,42 +2,95 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lindsay Dieffenbauch</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
 
 </head>
 
 <body>
+<div class="container">
+	<div class="row">
 
-<header>
-<img src="images/logo.png" alt="personal logo">
+<!--logo-->
+	<div class="logo">
+	<a href="index.html">
+		<div class="col-xs-4 col-sm-2 col-lg-1">
+			<img src="images/logo.png" class="img-responsive" alt="personal logo">
+		</div>
+	</a>
+	</div>
 
-<ul>
-	<li><a href="index.html">Home</a></li>
-	<li><a href="work.html">My Work</a></li>
-	<li><a href="contact.html">Contact Me</a></li>
-</ul>
-</header>
-
-<h1>Welcome</h1>
-
-<div class="icons">
-	<ul>
-		<li><a href="     "><img src="images/twitter.png" alt="twitter logo"></a></li>
-		<li><a href="     "><img src="images/pinterest.png" alt="pinterest logo"></a></li>
-		<li><a href="     "><img src="images/instagram.png" alt="instagram logo"></a></li>
-		<li><a hred="     "><img src="images/facebook.png" alt="facebook logo"></a></li>
-	</ul>
+<!--mobile nav-->
+<div class="hidden-lg">
+	<div class="btn-group btn-group-justified">
+	  	<div class="btn-group">
+	   			 <a href="index.html">
+	   			 	<button type="button" class="btn btn-default">Home</button>
+	   			 </a>
+	  	</div>
+	  	<div class="btn-group">
+	    		<a href="work.html">
+	    			<button type="button" class="btn btn-default">My Work</button>
+	    		</a>
+	  	</div>
+	  	<div class="btn-group">
+	    		<a href="contact.html">
+	    			<button type="button" class="btn btn-default">Contact Me</button>
+	    		</a>
+	  	</div>
+	</div>
 </div>
 
-<div class="line"></div>
+<!--Nav for tablet and desktop-->
 
-<p>Hello! My name is Lindsay Dieffenbauch. I am currently a senior in the graphic design program at West Virginia University. While looking through my work, I hope for you to see that I have a love for both art and design.</p>
+<div class="nav">
+	<nav class="pull-right col-lg-12 hidden-xs hidden-sm">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="work.html">My Work</a></li>
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+	</nav>
+</div>
 
-<a href="magazine.html"><img src="images/magazine.jpg" alt="magazine project"></a>
-<h5>MOST RECENT</h5>
+	<div class="pull-left col-xs-12 col-sm-12 col-lg-12">
+		<h1>Welcome</h1>
+	</div>
 
 
+<div class="col-lg-12 hidden-xs- hidden-sm">
+	<div class="line"></div>
+</div>
 
+<!--intro paragraph-->
+	<p class="col-xs-12 col-sm-12 col-lg-3">Hello! My name is Lindsay Dieffenbauch. I am currently a senior in the graphic design program at West Virginia University. While looking through my work, I hope for you to see that I have a love for both art and design.</p>
+
+
+<!--recent work-->
+	<div class="col-xs-12 col-sm-12">
+		<a href="magazine.html">
+		<img src="images/magazine.jpg" class="img-responsive" alt="magazine project">
+		</a>
+	</div>
+
+
+<div class="col-xs-12 col-sm-12 col-lg-7">
+	<h5>MOST RECENT</h5>
+</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	</div>
+</div>
 </body>
 
 
