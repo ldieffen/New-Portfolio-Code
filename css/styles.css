@@ -4,6 +4,7 @@ li {
 		margin: 0;
 		padding: 0;
 		display:inline;
+
 		}
 
 .icons li {
@@ -12,7 +13,8 @@ li {
 
 p {float:left;
 color: #00cbcb;
-font-family: Questrial; sans-serif;}
+font-family: Questrial; sans-serif;
+padding-top:15px;}
 
 h1 {font-size:20pt;
 	font-family: Rokkitt; serif;
@@ -23,8 +25,6 @@ h5 {font-family: Questrial; sans-serif;
 	color: white;
 	background-color: #ff6600;
 	padding:10px 5px 10px 5px;
-	z-index:100;
-
 
 }
 
@@ -45,16 +45,30 @@ h6 {font-family: Questrial; sans-serif;
 }
 .thumbnails img {padding-bottom:5%;}
 
-.back a {margin-bottom:12%;
+.back a {
 		font-family: Questrial; sans-serif;
-		color:#00cbcb;}
+		color:#00cbcb;
+	}
+
+.back a:hover {color:#ff6600;
+				font-style:italic;}
 
 .book img {margin-bottom:2%;}
 
 .nav a {font-family: Questrial; sans-serif;
 	color:#00cbcb;
+	float:right;
+	margin-top:20%;
 
 	}
 
-
+/*blah*/
 .line {border-bottom:red;}
+/*
+.recent {float:left;
+}*/
+
+.work {float:left;}
+
+.mag {float:right;}
+
