@@ -1,11 +1,4 @@
 
-li {
-	list-style-type: none;
-		margin: 0;
-		padding: 0;
-		display:inline;
-
-		}
 
 .icons li {
 	display:inline;
@@ -32,17 +25,60 @@ h6 {font-family: Questrial; sans-serif;
 	color:#ff6600;
 	font-size:12pt;
 	}
-.btn-group button {color:white;
-					font-family: Questrial; sans-serif;
-					background-image:none;
-					background-color:#00cbcb;
-					border-radius:0;}
 
-.btn-group button:hover {color:white;
+/*navigation*/
+
+.list a {color:white;
+		font-family: Questrial; sans-serif;
+		background-color:#00cbcb;
+		text-decoration:none;
+		text-align:center;
+		padding-top:10px;
+		padding-bottom:10px;
+		display:inline-block;
+	}
+
+
+ul {margin-left:none;}
+.list a:hover {color:white;
 	background-color: #ff6600;
+	text-decoration:none;}
 
+
+li {
+	list-style-type: none;
+		margin: 0;
+		padding: 0;
+		float:left;
+		}
+
+/*nav for desktop*/
+@media (992px){
+
+li {
+	list-style-type: none;
+		margin: 0;
+		padding: 0;
+		float:left;
+		width:100;
+
+		}
+.list a{color:white;
+		font-family: Questrial; sans-serif;
+		background-color:#00cbcb;
+		padding:10px;
+		text-decoration:none
+
+	}
+
+.list a:hover {color:white;
+	background-color: #ff6600;
+	text-decoration:none;
 
 }
+
+
+/*end of nav*/
 .thumbnails img {padding-bottom:5%;}
 
 .back a {
