@@ -26,7 +26,13 @@ h6 {font-family: Questrial; sans-serif;
 	font-size:12pt;
 	}
 
-/*navigation*/
+/*navigation for mobile and tablet
+
+Whenever I try max-wdith it still does not allow me to style 
+it at desktop version in a new media query*/
+
+
+@media screen (min-width: 480px) {
 
 .list a {color:white;
 		font-family: Questrial; sans-serif;
@@ -35,11 +41,14 @@ h6 {font-family: Questrial; sans-serif;
 		padding-top:10px;
 		padding-bottom:10px;
 		display:inline-block;
+		width:100%;
+		text-align:left;
 	}
 
 li {width:30%;}
 
 .list a:hover {color:#ff6600;
+	font-weight:bold;
 	text-decoration:none;
 }
 
@@ -47,6 +56,41 @@ li {width:30%;}
 ul {float:left;
 	background-color:#00cbcb;
 	width:100%;
+	margin-left:0;
+}
+li {
+	list-style-type: none;
+		margin: 0;
+		padding: 0;
+		float:left;
+		}
+
+/*nav for tablet
+@media (max-width: 786px) {
+
+.list a {color:white;
+		font-family: Questrial; sans-serif;
+		text-decoration:none;
+		text-align:center;
+		padding-top:10px;
+		padding-bottom:10px;
+		display:inline-block;
+		width:100%;
+		text-align:left;
+	}
+
+li {width:30%;}
+
+.list a:hover {color:#ff6600;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
+ul {float:left;
+	background-color:#00cbcb;
+	width:100%;
+	margin-left:0;
 }
 li {
 	list-style-type: none;
@@ -56,29 +100,37 @@ li {
 		}
 
 /*nav for desktop*/
-@media (992px){
+@media only screen and (max-width:992px) {
 
+
+.list a {color:white;
+		font-family: Questrial; sans-serif;
+		text-decoration:none;
+		text-align:center;
+		padding-top:10px;
+		padding-bottom:10px;
+		width:100%;
+		text-align:left;
+	}
+
+li {width:30%;}
+
+.list a:hover {color:#ff6600;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
+ul {float:left;
+	margin-left:0;
+}
 li {
 	list-style-type: none;
 		margin: 0;
 		padding: 0;
 		float:left;
-		width:100;
-
 		}
-.list a{color:white;
-		font-family: Questrial; sans-serif;
-		background-color:#00cbcb;
-		padding:10px;
-		text-decoration:none
 
-	}
-
-.list a:hover {color:white;
-	background-color: #ff6600;
-	text-decoration:none;
-
-}
 
 
 /*end of nav*/
