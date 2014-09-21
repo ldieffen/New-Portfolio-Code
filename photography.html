@@ -28,7 +28,7 @@
 
 
 <!--mobile nav-->
-<div class="list col-xs-12 col-sm-12 col-lg-7">
+<div class="list col-xs-12 col-sm-12 col-lg-12">
 
 	  			<ul>
 	  				<li>
@@ -56,26 +56,48 @@
 		</div>
 </div>
 
-		<div class="col-xs-12">
+		<div class="col-xs-12 col-sm-12 col-lg-3">
 			<p>After taking two photography courses, I found that it was something I enjoyed doing. Here are a few images from my digital photo class!</p>
 		</div>
 
-<div class="book">
-		<div class="col-xs-12 col-sm-6">
-			<img src="images/locks.jpg" class="img-responsive" alt="book one">
-		</div>
-		<div class="col-xs-12 col-sm-6">
-			<img src="images/poles.jpg" class="img-responsive" alt="book two">
-		</div>
-		<div class="col-xs-12 col-sm-6">
-			<img src="images/pole2.jpg" class="img-responsive" alt="book three">
-		</div>
-		<div class="col-xs-12 col-sm-6">
-			<img src="images/twins.jpg"  class="img-responsive" alt="book four">
-		</div>
-</div>
+
+<div id="carousel-example-generic" class="carousel slide col-xs-12 col-sm-12 col-lg-7">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		  </ol>
+	  
+		  <!-- Wrapper for slides -->
 
 
+	  <div class="carousel-inner">
+		<div class="item active">
+			<img src="images/poles.jpg" class="img-responsive" alt="electric pole">
+		</div>
+
+		<div class="item">
+		<img src="images/locks.jpg" class="img-responsive" alt="locker typology">
+		</div>
+
+		<div class="item">
+		 	<img src="images/twins.jpg"  class="img-responsive" alt="twin typology">
+		</div>
+
+	  </div>
+  
+	 <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" style="color:#ff6600"></span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" style="color:#ff6600"></span>
+	  </a>
+	</div>
+
+
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 

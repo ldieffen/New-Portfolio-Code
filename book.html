@@ -29,7 +29,7 @@
 
 
 <!--mobile nav-->
-<div class="list col-xs-12 col-sm-12 col-lg-7">
+<div class="list col-xs-12 col-sm-12 col-lg-12">
 
 	  			<ul>
 	  				<li>
@@ -51,30 +51,58 @@
 
 
 <div class="back">
-		<div class="col-xs-12">
+		<div class="col-xs-12 col-sm-12 col-lg-12">
 			<a href="misc.html">Back</a>
 		</div>
 </div>
 
-		<div class="col-xs-12">
+		<div class="col-xs-12 col-sm-12 col-lg-3">
 			<p>Last semester I took a book arts class as an elective. I ended up loving it and learned how to make books by hand. Here are some of them!</p>
 		</div>
 
-	<div class="book">
-		<div class="col-xs-12">
-			<img src="images/book1.jpg" class="img-responsive" alt="book one">
+
+<div id="carousel-example-generic" class="carousel slide col-xs-12 col-sm-12 col-lg-7">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+		  </ol>
+	  
+		  <!-- Wrapper for slides -->
+
+
+	  <div class="carousel-inner">
+		<div class="item active">
+		<img src="images/book1.jpg" class="img-responsive" alt="book one">
 		</div>
-		<div class="col-xs-12">
-			<img src="images/book2.jpg" class="img-responsive" alt="book two">
+
+		<div class="item">
+		<img src="images/book2.jpg" class="img-responsive" alt="book two">
 		</div>
-		<div class="col-xs-12">
-			<img src="images/book3.jpg" class="img-responsive" alt="book three">
+
+		<div class="item">
+		 	<img src="images/book3.jpg" class="img-responsive" alt="book three">
 		</div>
-		<div class="col-xs-12">
+
+		<div class="item">
 			<img src="images/book4.jpg" class="img-responsive" alt="book four">
 		</div>
+
+	  </div>
+  
+	 <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" style="color:#ff6600"></span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" style="color:#ff6600"></span>
+	  </a>
 	</div>
 
+
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	</div>
