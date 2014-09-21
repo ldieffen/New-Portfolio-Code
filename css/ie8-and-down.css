@@ -1,0 +1,17 @@
+
+/*fix ie*/
+
+ul {float:right;
+	background-color: transparent;
+	width:auto;
+	padding-left:0;
+	padding-right:90px;
+	}
+
+.list a {color:#00cbcb;}
+
+li {width: auto;
+	margin-right:10px;
+	}
+
+body {color:red;}
