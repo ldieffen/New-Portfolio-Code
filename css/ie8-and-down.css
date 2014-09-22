@@ -1,7 +1,7 @@
 
 /*fix ie*/
 
-ul {float:right;
+.ie ul {float:right;
 	background-color: transparent;
 	width:auto;
 	padding-left:0;

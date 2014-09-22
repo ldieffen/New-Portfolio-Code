@@ -171,19 +171,3 @@ h5 {font-family: Questrial, sans-serif;
 .categories img {padding-bottom: 10px;}
 
 .text {margin-right:5%;}
-
-
-.ie ul {float:right;
-	background-color: transparent;
-	width:auto;
-	padding-left:0;
-	padding-right:90px;
-	}
-
-.ie .list a {color:#00cbcb;}
-
-.ie li {width: auto;
-	margin-right:10px;
-	}
-
-.ie body {color:red;}
