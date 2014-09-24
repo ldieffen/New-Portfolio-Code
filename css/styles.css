@@ -27,9 +27,18 @@ h6 {font-family: Questrial, sans-serif;
 	font-size:12pt;
 	}
 
+.home {padding-bottom:50px;}
+
+.categories {padding-bottom: 50px;}
+
+.categories img {padding-bottom: 10px;}
+
 
 .pic {padding-left:2px;
 padding-right:2px;}
+
+.selfie {margin-bottom:10px;
+margin-right:0;}
 
 .thumbnails img {padding-bottom:5%;
 }
@@ -51,6 +60,10 @@ margin-left: -5%;
 text-align: center;
 list-style: none;
 }
+
+
+.bc {margin-top:5px;}
+.dr img {margin-bottom:5px;}
 
 .back a {
 		font-style:italic;
@@ -98,7 +111,6 @@ li {
 
 
 
-
 @media (min-width: 786px) {
 
 .list a {width:100%;
@@ -110,22 +122,28 @@ li {
 	}
 
 .back a:hover {color:#00cbcb;}
-
+}
 
 
 /*nav for desktop*/
-@media only screen and (min-width:992px) {
 
-h5 a {text-decoration:none;}
+@media (min-width:992px) {
+
+h5 a {text-decoration:none;
+}
 
 ul {float:right;
 	background-color: transparent;
 	width:auto;
-	padding-left:0;
-	padding-right:90px;
+	padding-left: 0;
+	padding-right: 90px;
 	}
 
-.list a {color:#00cbcb;}
+.list a {color:#00cbcb;
+}
+
+.list a.active {color:#ff6600;
+}
 
 li {width: auto;
 	margin-right:10px;
@@ -143,13 +161,14 @@ h5 {font-family: Questrial, sans-serif;
 
 
 
-.thumbnails img {padding:3%;}
+.thumbnails img {padding:3%;
+}
 
 .back a {
 		font-family: Questrial, sans-serif;
 		color:#ff6600;
 		font-style:italic;
-	}
+		}
 
 .back a:hover {color:#ff6600;
 			   font-style:italic;}
@@ -171,3 +190,10 @@ h5 {font-family: Questrial, sans-serif;
 .categories img {padding-bottom: 10px;}
 
 .text {margin-right:5%;}
+
+.bc {padding-bottom:50px;
+	margin-top:0;}
+
+.selfie {margin-bottom:50px;}
+
+}
